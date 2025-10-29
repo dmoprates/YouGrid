@@ -95,11 +95,56 @@ aside.menu-box ul li a.active {
   color: rgb(28, 27, 27);
 }
 
-sectino.content div.grid-container {
+section.content div.grid-container {
   width: 80%;
   padding: 10px;
   display: grid;
-  grid-template: 4(1fr);
-  grid-gap: 10px;
-  background-color: #888;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+div.grid-item {
+  width: 282px;
+  height: 262px;
+  justify-items: center;
+}
+
+div.grid-img{
+  background: #2b2a2a;
+  width: 250px;
+  height: 140px;
+  margin-top: 10px;
+}
+
+.recomends_single {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 0 15px;
+}
+
+.recomends_single img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(1, 1, 36);
+}
+
+.recomends_single_content {
+  margin-left: 10px;
+}
+
+.recomends_single_content h4 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.recomends_single_content p {
+  font-size: 10px;
+}
+
+.recomends_single_content p:nth-child(1){
+  margin-top: 5px;
 }
