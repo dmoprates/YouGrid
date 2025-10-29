@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 2%;
+  align-items: center;
+}
+
+.left a.bars {
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  cursor: pointer;
+}
+
+.left a.logo {
+  text-decoration: none;
+  background: rgb(237, 44, 44);
+  color: white;
+  padding: 4px 4px;
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.search-container {
+  position: relative;
+  width: 300px;
+}
+
+.search-container .search-input {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.search-container .search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  cursor: pointer;
+}
+
+.search-container .search-input:focus {
+  outline: none;
+  border-color: #5b9bd5;
+}
+
+div.right a {
+  color: rgb(27, 27, 27);
+  padding: 0 8px;
+}
+
+div.right a.avatar {
+  border: 1px solid rgb(27, 27, 27);
+  border-radius: 50%;
+  padding: 4px;
+  cursor: pointer;
+}
+
+section.content {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+}
+
+section.content aside.menu-box {
+  width: 20%;
+  padding: 10px;
+}
+
+aside.menu-box ul {
+  list-style: none;
+}
+
+aside.menu-box ul li {
+  padding: 10px;
+}
+
+aside.menu-box ul li a {
+  text-decoration: none;
+  color: rgb(97, 94, 94);
+}
+
+aside.menu-box ul li a.active {
+  text-decoration: none;
+  color: rgb(28, 27, 27);
+}
+
+sectino.content div.grid-container {
+  width: 80%;
+  padding: 10px;
+  display: grid;
+  grid-template: 4(1fr);
+  grid-gap: 10px;
+  background-color: #888;
+}
