@@ -12,3 +12,6 @@ Esse projeto foi proposto pela expert Michele Ambrosio da plataforma educacional
 onde apresentam os vídeos do youtube dispostos lado a lado, em um formato de tabela.;
 - O desenvolvimento foi realizado para atender à proposta apresentada com algumas adequações
 como a opção por não usar imagens nas thumbnails e sim uma cor sólida.
+
+## Acesso
+A aplicação pode ser acessada [aqui](#)
