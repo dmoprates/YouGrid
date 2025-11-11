@@ -14,4 +14,7 @@ onde apresentam os vídeos do youtube dispostos lado a lado, em um formato de ta
 como a opção por não usar imagens nas thumbnails e sim uma cor sólida.
 
 ## Acesso
-A aplicação pode ser acessada [aqui](#)
+A aplicação pode ser acessada [aqui](https://dmoprates.github.io/YouGrid/)
+
+## Pré-Visualização
+![Captura de tela do portal](img/Screenshot.png)
